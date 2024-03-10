@@ -1,0 +1,44 @@
+        Data Structures
+
+Stack - 
+    LIFO
+    Uses - Functional Call Stack, Undo Mechanism, Backtracking, Syntax Parsing
+    "from queue import LifoQueue
+    stack = LifoQueue(maxsize=0)"
+
+Queue -
+    FIFO
+    Uses - Task Scheduling, BFS
+    "from queue import FifoQueue
+    queue = FifoQueue(maxsize=0)"
+
+Dequeue - 
+    Enqueue and Dequeue possible from both ends
+
+Priority Queue - 
+    Dequeue based on Priority
+
+LinkedList - 
+    Each nodes store 2 values. Data and Pointer
+    Insertion O(1)
+    Deletion O(1)
+    Search O(n)
+
+Doubly LinkedList - 
+    Each node store 3 values. Data, Pointer to previous node and Pointer to next node
+    Linear retrival time
+
+Array - 
+    Continuous memory allocation
+    Constant retrival time
+    Fixed Size (Resizing is expensive)
+
+Graph - 
+    Represented using Adjacency List or Adjacency Matrix
+
+Set -
+    Unique values, order is not important
+
+Heaps
+Tries
+Map
