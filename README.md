@@ -4,6 +4,7 @@ Welcome to my public learning repository! This repository is dedicated to docume
 
 ## Why am I doing it?
 ![There isn't any shame in being weak, the same is in staying weak](/Assets/LordFuegoleon.jpeg)
+
 The purpose of this is to overcome the insecurity of not being an expert and accepting the process of learning.
 By the end my Postgraduate I plan on being skilled engineer!
 
