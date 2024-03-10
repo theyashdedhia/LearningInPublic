@@ -1,0 +1,54 @@
+Java OOP Basics
+
+Classes - 
+    Blueprint/templates for objects
+    It is a logical entity can't be physical
+    Can contain Methods, Constructors, Blocks, Nested Classes or Interfaces or Field
+
+Objects - 
+    Is an instance of a class
+    Has - 
+        State: Data of the objects
+        Behaviour: Functionality of the objects
+        Identity: Used internally by jvm to identify objects
+    Runtime entity
+
+Methods - 
+    A method is a block of code to perform some task.
+    A method declaration has -
+        Access Specifier:
+            Public, Private, Protected, Default <No specifier>
+        Return Type:
+            Data type returned by the method
+        Method Signature: 
+            Name, Parameters
+
+Constructors - 
+    Constructs values at the time of object creation. Java compiler creates a default constructor if nothing is specified.
+    Rules - 
+        Same name as Class name
+        No explicit return type
+        Cannot be abstract, final, static or synchronized
+
+Things to know in Classes and Objects -
+
+    Instance variables - A variable inside a class but outside a method. Gets memory during runtime when object is created. Memory is not allocated at complie time.
+
+    'new' - Used to allocate memory at runtime. Objects get memory in Heap memory area.
+
+    Access Specifiers - 
+        1. Private: Accessible only inside the specified class
+        2. Protected: Accessible inside the same package and subclass of other packages
+        3. Public: Accessible everywhere
+        4. Default: Only Accessible to classes inside the same package
+
+    'static' - 
+        Static variables can be used to refer to common propety of all objects. They get memory only once in class area at the time of class loading.
+        Static methods belong to class rather than object. Can ve invoked without creating instance.
+
+    'this' - 
+        Refer current instance variable
+        To invoke class methods. If you don't explicitly specify, compiler automatically add this keyword.
+        this(): to invoke current class constructor (Constructor Chaining)
+        Pass as an argument to get current object (Event Handelling)
+        Return class instance
