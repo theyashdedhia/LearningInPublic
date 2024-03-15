@@ -15,6 +15,8 @@ By the end my Postgraduate I plan on being skilled engineer!
 ### 3. IT Infrastructure and Security
 ### 4. Database Concepts
 
+You can find the documents and related links in respective folders.
+
 ## Contact Me
 - LinkedIn: https://www.linkedin.com/in/theyashdedhia/
 - Email: dedhiayaash@gmail.com
