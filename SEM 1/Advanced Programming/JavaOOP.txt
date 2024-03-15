@@ -30,6 +30,12 @@ Constructors -
         No explicit return type
         Cannot be abstract, final, static or synchronized
 
+Interfaces -
+    Blueprint of a class
+    An interface extends an interface but a class implements an interface
+    It is used to achieve abstraction, multiple inheritance and loose coupling
+    Java complier adds public and static keywords before interface methods, adds public, static and final to data members
+
 Things to know in Classes and Objects -
 
     Instance variables - A variable inside a class but outside a method. Gets memory during runtime when object is created. Memory is not allocated at complie time.
@@ -52,3 +58,17 @@ Things to know in Classes and Objects -
         this(): to invoke current class constructor (Constructor Chaining)
         Pass as an argument to get current object (Event Handelling)
         Return class instance
+    
+    'final' - 
+        A non-access modifier which makes them non-changable (impossible to inherit or override)
+
+Inheritance - 
+    One class aquires all properties and behaviours of parent class.
+    ~Class SubclassName extends SuperclassName~ 'extends' keyword is used in java
+    Classes only support single, multi-level and heirarchical inheritance. Multiple inheritance gives complie time error.
+    We can achieve multiple inheritance through Interfaces
+
+Things to know in OOPS Java -
+
+    'default'
+    
