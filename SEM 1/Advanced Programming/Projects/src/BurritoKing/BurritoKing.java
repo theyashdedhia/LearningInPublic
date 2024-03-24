@@ -13,7 +13,7 @@ public class BurritoKing {
 		
 		ItemDetails liveStatusBurrito = new ItemDetails("Burrito", Manager.priceOfBurrito, Manager.preparationTimeOfBurritoBatch, Manager.batchSizeOfBurrito, 0);
 		ItemDetails liveStatusFries = new ItemDetails("Fries", Manager.batchSizeOfFries, Manager.preparationTimeOfFriesBatch, Manager.batchSizeOfFries, 0);
-		ItemDetails liveStatussoda = new ItemDetails("Burrito", Manager.priceOfSoda, Manager.preparationTimeOfSodaBatch, Manager.batchSizeOfSoda, 0);
+		ItemDetails liveStatussoda = new ItemDetails("Soda", Manager.priceOfSoda, Manager.preparationTimeOfSodaBatch, Manager.batchSizeOfSoda, 0);
 
 		
 		HashMap<String, ItemDetails> liveStatusRestaurant = new HashMap<>();
@@ -271,7 +271,7 @@ class Customer{
 		
 //		Get Amount
 		do {			
-			System.out.printf("Total Amount for %.0f %s is %.2f\n", quantity, updateItemDetails.itemName, orderDetails.orderPrice);
+			System.out.printf("Total Amount for %.0f %s is %.2f\n", quantity, orderDetails.itemName, orderDetails.orderPrice);
 			System.out.print("Enter Amount Paid:");
 			String amountInput = input.next();
 			try {
